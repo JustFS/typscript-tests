@@ -25,8 +25,9 @@ console.log(mixed);
 let uid: string|number;
 
 // objects
-let ninjaOne: object;
-ninjaOne = { name: 'yoshi', age: 30 };
+let ninjaOne: { name: any, age: number };
+// ou
+let ninga:object;
 
 let ninjaTwo: {
   name: string,

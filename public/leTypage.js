@@ -1,3 +1,4 @@
+"use strict";
 var character = 'mario';
 var age;
 var isLoggedIn;
@@ -19,6 +20,7 @@ console.log(mixed);
 var uid;
 // objects
 var ninjaOne;
-ninjaOne = { name: 'yoshi', age: 30 };
+// ou
+var ninga;
 var ninjaTwo;
 ninjaTwo = { name: 'ken', age: 20, beltColour: 'black' };
